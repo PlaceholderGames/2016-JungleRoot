@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="1" id="-1">
+                        <set-dxy comment="false" x="37" y="73">
+                            <ACTOR eid="3" id="0"/>
+                            <int id="1" val="0"/>
+                            <times comment="false" id="2" x="0" y="0">
+                                <get-dxy comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="3" id="0"/>
+                                    <int id="1" val="0"/>
+                                </get-dxy>
+                                <int id="1" val="0.4"/>
+                            </times>
+                        </set-dxy>
+                        <set-dxy comment="false" x="37" y="118">
+                            <ACTOR eid="3" id="0"/>
+                            <int id="1" val="1"/>
+                            <times comment="false" id="2" x="0" y="0">
+                                <get-dxy comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="3" id="0"/>
+                                    <int id="1" val="1"/>
+                                </get-dxy>
+                                <int id="1" val="0.975"/>
+                            </times>
+                        </set-dxy>
+                    </group>
+                    <is-in-region comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="3" id="0"/>
+                        <REGION eid="0" id="1"/>
+                    </is-in-region>
+                </if>
+                <else comment="false" x="26" y="175">
+                    <group eventID="1" id="-1">
+                        <set-dxy comment="false" x="37" y="195">
+                            <ACTOR eid="3" id="0"/>
+                            <int id="1" val="0"/>
+                            <get-dxy comment="false" id="2" x="0" y="0">
+                                <ACTOR eid="3" id="0"/>
+                                <int id="1" val="0"/>
+                            </get-dxy>
+                        </set-dxy>
+                        <set-dxy comment="false" x="37" y="235">
+                            <ACTOR eid="3" id="0"/>
+                            <int id="1" val="1"/>
+                            <get-dxy comment="false" id="2" x="0" y="0">
+                                <ACTOR eid="3" id="0"/>
+                                <int id="1" val="1"/>
+                            </get-dxy>
+                        </set-dxy>
+                    </group>
+                </else>
+            </group>
+        </step>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="1" id="-1">
+                        <set-dxy comment="false" x="37" y="73">
+                            <ACTOR eid="3" id="0"/>
+                            <int id="1" val="0"/>
+                            <times comment="false" id="2" x="0" y="0">
+                                <get-dxy comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="3" id="0"/>
+                                    <int id="1" val="0"/>
+                                </get-dxy>
+                                <int id="1" val="0.4"/>
+                            </times>
+                        </set-dxy>
+                        <set-dxy comment="false" x="37" y="118">
+                            <ACTOR eid="3" id="0"/>
+                            <int id="1" val="1"/>
+                            <times comment="false" id="2" x="0" y="0">
+                                <get-dxy comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="3" id="0"/>
+                                    <int id="1" val="1"/>
+                                </get-dxy>
+                                <int id="1" val="0.975"/>
+                            </times>
+                        </set-dxy>
+                    </group>
+                    <is-in-region comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="3" id="0"/>
+                        <REGION eid="1" id="1"/>
+                    </is-in-region>
+                </if>
+                <else comment="false" x="26" y="175">
+                    <group eventID="1" id="-1">
+                        <set-dxy comment="false" x="37" y="195">
+                            <ACTOR eid="3" id="0"/>
+                            <int id="1" val="0"/>
+                            <get-dxy comment="false" id="2" x="0" y="0">
+                                <ACTOR eid="3" id="0"/>
+                                <int id="1" val="0"/>
+                            </get-dxy>
+                        </set-dxy>
+                        <set-dxy comment="false" x="37" y="235">
+                            <ACTOR eid="3" id="0"/>
+                            <int id="1" val="1"/>
+                            <get-dxy comment="false" id="2" x="0" y="0">
+                                <ACTOR eid="3" id="0"/>
+                                <int id="1" val="1"/>
+                            </get-dxy>
+                        </set-dxy>
+                    </group>
+                </else>
+            </group>
+        </step>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="1" id="-1">
+                        <set-dxy comment="false" x="37" y="73">
+                            <ACTOR eid="3" id="0"/>
+                            <int id="1" val="0"/>
+                            <times comment="false" id="2" x="0" y="0">
+                                <get-dxy comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="3" id="0"/>
+                                    <int id="1" val="0"/>
+                                </get-dxy>
+                                <int id="1" val="0.4"/>
+                            </times>
+                        </set-dxy>
+                        <set-dxy comment="false" x="37" y="118">
+                            <ACTOR eid="3" id="0"/>
+                            <int id="1" val="1"/>
+                            <times comment="false" id="2" x="0" y="0">
+                                <get-dxy comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="3" id="0"/>
+                                    <int id="1" val="1"/>
+                                </get-dxy>
+                                <int id="1" val="0.975"/>
+                            </times>
+                        </set-dxy>
+                    </group>
+                    <is-in-region comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="3" id="0"/>
+                        <REGION eid="2" id="1"/>
+                    </is-in-region>
+                </if>
+                <else comment="false" x="26" y="175">
+                    <group eventID="1" id="-1">
+                        <set-dxy comment="false" x="37" y="195">
+                            <ACTOR eid="3" id="0"/>
+                            <int id="1" val="0"/>
+                            <get-dxy comment="false" id="2" x="0" y="0">
+                                <ACTOR eid="3" id="0"/>
+                                <int id="1" val="0"/>
+                            </get-dxy>
+                        </set-dxy>
+                        <set-dxy comment="false" x="37" y="235">
+                            <ACTOR eid="3" id="0"/>
+                            <int id="1" val="1"/>
+                            <get-dxy comment="false" id="2" x="0" y="0">
+                                <ACTOR eid="3" id="0"/>
+                                <int id="1" val="1"/>
+                            </get-dxy>
+                        </set-dxy>
+                    </group>
+                </else>
+            </group>
+        </step>
+    </group>
+    <group eventID="3" id="-1"/>
+    <group eventID="4" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="1" id="-1">
+                        <set-dxy comment="false" x="37" y="73">
+                            <ACTOR eid="3" id="0"/>
+                            <int id="1" val="0"/>
+                            <times comment="false" id="2" x="0" y="0">
+                                <get-dxy comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="3" id="0"/>
+                                    <int id="1" val="0"/>
+                                </get-dxy>
+                                <int id="1" val="0.4"/>
+                            </times>
+                        </set-dxy>
+                        <set-dxy comment="false" x="37" y="118">
+                            <ACTOR eid="3" id="0"/>
+                            <int id="1" val="1"/>
+                            <times comment="false" id="2" x="0" y="0">
+                                <get-dxy comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="3" id="0"/>
+                                    <int id="1" val="1"/>
+                                </get-dxy>
+                                <int id="1" val="0.975"/>
+                            </times>
+                        </set-dxy>
+                    </group>
+                    <is-in-region comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="3" id="0"/>
+                        <REGION eid="3" id="1"/>
+                    </is-in-region>
+                </if>
+                <else comment="false" x="26" y="175">
+                    <group eventID="1" id="-1">
+                        <set-dxy comment="false" x="37" y="195">
+                            <ACTOR eid="3" id="0"/>
+                            <int id="1" val="0"/>
+                            <get-dxy comment="false" id="2" x="0" y="0">
+                                <ACTOR eid="3" id="0"/>
+                                <int id="1" val="0"/>
+                            </get-dxy>
+                        </set-dxy>
+                        <set-dxy comment="false" x="37" y="235">
+                            <ACTOR eid="3" id="0"/>
+                            <int id="1" val="1"/>
+                            <get-dxy comment="false" id="2" x="0" y="0">
+                                <ACTOR eid="3" id="0"/>
+                                <int id="1" val="1"/>
+                            </get-dxy>
+                        </set-dxy>
+                    </group>
+                </else>
+            </group>
+        </step>
+    </group>
+    <group eventID="4" id="-1"/>
+    <group eventID="5" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="1" id="-1">
+                        <set-dxy comment="false" x="37" y="73">
+                            <ACTOR eid="3" id="0"/>
+                            <int id="1" val="0"/>
+                            <times comment="false" id="2" x="0" y="0">
+                                <get-dxy comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="3" id="0"/>
+                                    <int id="1" val="0"/>
+                                </get-dxy>
+                                <int id="1" val="0.4"/>
+                            </times>
+                        </set-dxy>
+                        <set-dxy comment="false" x="37" y="118">
+                            <ACTOR eid="3" id="0"/>
+                            <int id="1" val="1"/>
+                            <times comment="false" id="2" x="0" y="0">
+                                <get-dxy comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="3" id="0"/>
+                                    <int id="1" val="1"/>
+                                </get-dxy>
+                                <int id="1" val="0.975"/>
+                            </times>
+                        </set-dxy>
+                    </group>
+                    <is-in-region comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="3" id="0"/>
+                        <REGION eid="4" id="1"/>
+                    </is-in-region>
+                </if>
+                <else comment="false" x="26" y="175">
+                    <group eventID="1" id="-1">
+                        <set-dxy comment="false" x="37" y="195">
+                            <ACTOR eid="3" id="0"/>
+                            <int id="1" val="0"/>
+                            <get-dxy comment="false" id="2" x="0" y="0">
+                                <ACTOR eid="3" id="0"/>
+                                <int id="1" val="0"/>
+                            </get-dxy>
+                        </set-dxy>
+                        <set-dxy comment="false" x="37" y="235">
+                            <ACTOR eid="3" id="0"/>
+                            <int id="1" val="1"/>
+                            <get-dxy comment="false" id="2" x="0" y="0">
+                                <ACTOR eid="3" id="0"/>
+                                <int id="1" val="1"/>
+                            </get-dxy>
+                        </set-dxy>
+                    </group>
+                </else>
+            </group>
+        </step>
+    </group>
+    <group eventID="5" id="-1"/>
+</groups>
