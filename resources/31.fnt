@@ -1,0 +1,17 @@
+#
+#Fri Oct 21 20:41:36 BST 2016
+style=bold
+alphabet=
+stroke.color=\#008000
+color=\#008000
+shadow.y=3
+family=SansSerif
+shadow.x=4
+shadow.color=\#000000
+gradient.offset=10
+shadow.blur=1
+chars=all
+gradient.color=\#993300
+stroke.size=1
+antialias=true
+size=36

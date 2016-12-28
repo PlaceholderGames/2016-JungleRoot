@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <scenes>
     <scene desc="" format="3.4.0" id="0" name="Jungle Scene"/>
+    <scene desc="" format="3.4.0" id="1" name="Title Screen"/>
+    <scene desc="" format="3.4.0" id="2" name="Controls Screen"/>
+    <scene desc="" format="3.4.0" id="3" name="Information"/>
+    <scene desc="" format="3.4.0" id="4" name="Temple"/>
+    <scene desc="" format="3.4.0" id="5" name="Victory"/>
+    <scene desc="" format="3.4.0" id="6" name="Boss Scene"/>
 </scenes>

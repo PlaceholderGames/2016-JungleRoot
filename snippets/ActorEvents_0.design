@@ -43,4 +43,65 @@
         </event-collide-actortotype>
     </group>
     <group eventID="3" id="-1"/>
+    <group eventID="4" id="0">
+        <event-collide-actortogroup comment="false" x="15" y="15">
+            <group eventID="4" id="-1">
+                <die comment="false" x="26" y="47">
+                    <ACTOR eid="this" id="0"/>
+                </die>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actorgroup eid="6" id="1"/>
+        </event-collide-actortogroup>
+    </group>
+    <group eventID="4" id="-1"/>
+    <group eventID="5" id="0">
+        <event-collide-actortotype comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <die comment="false" x="26" y="47">
+                    <ACTOR eid="this" id="0"/>
+                </die>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actortype eid="64" id="1"/>
+        </event-collide-actortotype>
+    </group>
+    <group eventID="5" id="-1"/>
+    <group eventID="6" id="0">
+        <event-collide-actortotype comment="false" x="15" y="15">
+            <group eventID="6" id="-1">
+                <if comment="false" x="26" y="47">
+                    <group eventID="6" id="-1">
+                        <set-fric-bounce comment="false" x="37" y="80">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="500"/>
+                        </set-fric-bounce>
+                    </group>
+                    <collision-top comment="false" id="0" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <int id="1" val="1"/>
+                    </collision-top>
+                </if>
+                <if comment="false" x="26" y="119">
+                    <group eventID="6" id="-1">
+                        <set-fric-bounce comment="false" x="37" y="157">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="0"/>
+                        </set-fric-bounce>
+                    </group>
+                    <not comment="false" id="0" x="0" y="0">
+                        <collision-top comment="false" id="0" x="0" y="0">
+                            <int id="0" val="0"/>
+                            <int id="1" val="1"/>
+                        </collision-top>
+                    </not>
+                </if>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actortype eid="59" id="1"/>
+        </event-collide-actortotype>
+    </group>
+    <group eventID="6" id="-1"/>
 </groups>

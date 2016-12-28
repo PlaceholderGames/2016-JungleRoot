@@ -83,6 +83,10 @@ class SceneEvents_0 extends SceneScript
 	override public function init()
 	{
 		
+		/* ======================== When Creating ========================= */
+		stopAllSounds();
+		loopSound(getSound(50));
+		
 		/* ======================== When Updating ========================= */
 		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
 		{
@@ -90,8 +94,8 @@ class SceneEvents_0 extends SceneScript
 			{
 				if(isInRegion(getActor(3), getRegion(0)))
 				{
-					getActor(3).setXVelocity((getActor(3).getXVelocity() * 0.4));
-					getActor(3).setYVelocity((getActor(3).getYVelocity() * 0.975));
+					getActor(3).setXVelocity((getActor(3).getXVelocity() * 0.35));
+					getActor(3).setYVelocity((getActor(3).getYVelocity() * 0.96));
 				}
 				else
 				{
@@ -106,10 +110,22 @@ class SceneEvents_0 extends SceneScript
 		{
 			if(wrapper.enabled)
 			{
+				if(isInRegion(getActor(3), getRegion(5)))
+				{
+					switchScene(GameModel.get().scenes.get(4).getID(), createFadeOut(0.5, Utils.getColorRGB(0,0,0)), createFadeIn(0.5, Utils.getColorRGB(0,0,0)));
+				}
+			}
+		});
+		
+		/* ======================== When Updating ========================= */
+		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
 				if(isInRegion(getActor(3), getRegion(1)))
 				{
-					getActor(3).setXVelocity((getActor(3).getXVelocity() * 0.4));
-					getActor(3).setYVelocity((getActor(3).getYVelocity() * 0.975));
+					getActor(3).setXVelocity((getActor(3).getXVelocity() * 0.35));
+					getActor(3).setYVelocity((getActor(3).getYVelocity() * 0.96));
 				}
 				else
 				{
@@ -126,8 +142,8 @@ class SceneEvents_0 extends SceneScript
 			{
 				if(isInRegion(getActor(3), getRegion(2)))
 				{
-					getActor(3).setXVelocity((getActor(3).getXVelocity() * 0.4));
-					getActor(3).setYVelocity((getActor(3).getYVelocity() * 0.975));
+					getActor(3).setXVelocity((getActor(3).getXVelocity() * 0.35));
+					getActor(3).setYVelocity((getActor(3).getYVelocity() * 0.96));
 				}
 				else
 				{
@@ -144,8 +160,8 @@ class SceneEvents_0 extends SceneScript
 			{
 				if(isInRegion(getActor(3), getRegion(3)))
 				{
-					getActor(3).setXVelocity((getActor(3).getXVelocity() * 0.4));
-					getActor(3).setYVelocity((getActor(3).getYVelocity() * 0.975));
+					getActor(3).setXVelocity((getActor(3).getXVelocity() * 0.35));
+					getActor(3).setYVelocity((getActor(3).getYVelocity() * 0.96));
 				}
 				else
 				{
@@ -162,8 +178,8 @@ class SceneEvents_0 extends SceneScript
 			{
 				if(isInRegion(getActor(3), getRegion(4)))
 				{
-					getActor(3).setXVelocity((getActor(3).getXVelocity() * 0.4));
-					getActor(3).setYVelocity((getActor(3).getYVelocity() * 0.975));
+					getActor(3).setXVelocity((getActor(3).getXVelocity() * 0.35));
+					getActor(3).setYVelocity((getActor(3).getYVelocity() * 0.96));
 				}
 				else
 				{

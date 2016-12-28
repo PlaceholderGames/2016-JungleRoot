@@ -107,6 +107,40 @@ class ActorEvents_0 extends ActorScript
 			}
 		});
 		
+		/* ======================== Actor of Type ========================= */
+		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled && sameAsAny(getActorType(59), event.otherActor.getType(),event.otherActor.getGroup()))
+			{
+				if(event.otherFromTop)
+				{
+					actor.setFriction(500);
+				}
+				if(!(event.otherFromTop))
+				{
+					actor.setFriction(0);
+				}
+			}
+		});
+		
+		/* ======================== Actor of Type ========================= */
+		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled && sameAsAny(getActorType(64), event.otherActor.getType(),event.otherActor.getGroup()))
+			{
+				recycleActor(actor);
+			}
+		});
+		
+		/* ======================= Member of Group ======================== */
+		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled && sameAsAny(getActorGroup(6),event.otherActor.getType(),event.otherActor.getGroup()))
+			{
+				recycleActor(actor);
+			}
+		});
+		
 	}
 	
 	override public function forwardMessage(msg:String)
